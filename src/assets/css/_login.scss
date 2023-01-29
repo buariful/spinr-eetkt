@@ -1,0 +1,209 @@
+.login__container {
+  height: 100vh;
+  .login__wrapper {
+    width: 40%;
+    margin: auto;
+    padding: 30px 46px;
+    border-radius: 15px;
+    box-shadow: 0 4px 11px 1px #363333;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%);
+    background: white;
+    .login__title {
+      p {
+        font-weight: 700;
+        font-size: 24px;
+        font-family: "Nunito Sans";
+        margin-bottom: 27px;
+        color: #868484;
+      }
+      h3 {
+        font-size: 28px;
+        font-weight: 700;
+        font-family: "Nunito Sans";
+        margin-bottom: 5px;
+      }
+    }
+    button {
+      background: white;
+      border: 2px solid black;
+      border-radius: 5px;
+      width: 100%;
+      margin-bottom: 1em;
+      padding: 0.7em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 2.5vw;
+        margin-right: 10px;
+      }
+    }
+    .divider {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-top: 0.7em;
+      margin-bottom: 1.5em;
+      div {
+        height: 2px;
+        width: 30%;
+        border: 1px dashed #a1a1a1;
+      }
+      span {
+        color: #a1a1a1;
+        font-family: "Nunito Sans";
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+    form {
+      input {
+        width: 100%;
+        padding: 1em;
+        border-radius: 0.5em;
+        text-align: center;
+        font-family: "Nunito Sans";
+        font-weight: 700;
+        margin-bottom: 0.7em;
+        border: 2px solid #868484;
+      }
+      .login__rememberForgot {
+        display: flex;
+        color: #868484;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1em;
+        margin-top: 0.7em;
+        font-size: 14px;
+        div {
+          display: flex;
+          align-items: center;
+        }
+        a {
+          color: #868484;
+        }
+      }
+      input.login__submitBtn {
+        background: linear-gradient(88deg, #3f25aa, #ab3587);
+        border: 0;
+        color: white;
+        transition: 0.5s;
+      }
+      input.login__submitBtn:hover {
+        background: linear-gradient(88deg, #3f25aa, #3f25aa);
+      }
+      .login__bottom {
+        font-size: 18px;
+        font-family: "Nunito Sans";
+        font-weight: 600;
+        span {
+          color: #868484;
+        }
+        a {
+          color: #4085d6;
+        }
+      }
+    }
+  }
+}
+// .login__section {
+//    img {
+//       z-index: 1;
+//    }
+//    h1 {
+//       font-weight: 700;
+//       font-size: 28px;
+//       font-family: Nunito sans;
+//       margin-bottom: 5px;
+//    }
+//    p {
+//       color: #868484;
+//       font-size: 24px;
+//       font-family: Nunito sans;
+//       font-weight: 700;
+//       margin-bottom: 27px;
+//    }
+//    .login__box {
+//       width: 40%;
+//       margin: auto;
+//       border-radius: 1em;
+//       padding: 2.2em;
+//       box-shadow: 0px 1px 4px 0px black;
+//       .social__login {
+//          display: flex;
+//          gap: 8px;
+//          flex-direction: column;
+//          button {
+//             width: 100%;
+//             border-radius: 0.5em;
+//             border: 2px solid #000;
+//             background: #fff;
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             gap: 10px;
+//             padding: 0.7em;
+
+//             img {
+//                max-width: 30px;
+//             }
+//             span {
+//                font-size: 17px;
+//             }
+//          }
+//       }
+//       .login__divider {
+//          display: flex;
+//          justify-content: center;
+//          gap: 0.7em;
+//          align-items: center;
+//          margin-top: 15px;
+//          margin-bottom: 15px;
+//          span {
+//             width: 27%;
+//             border-bottom: 2px dashed #a1a1a1;
+//          }
+//          p {
+//             font-weight: 600;
+//             font-family: "Nunito Sans";
+//             font-size: 18px;
+//             margin: 0;
+//          }
+//       }
+//       form {
+//          display: flex;
+//          justify-content: center;
+//          align-items: center;
+//          flex-direction: column;
+//          input {
+//             width: 100%;
+//             padding: 1em;
+//             margin-bottom: 1.5em;
+//             border-radius: 0.5em;
+//             border: 2px solid #c4c4c4;
+//             text-align: center;
+//          }
+//          .loginFrom__bottomOptions {
+//             display: flex;
+//             justify-content: space-between;
+//             align-items: center;
+//             width: 100%;
+//             padding: 0.7em 1em;
+
+//             p {
+//                font-size: 16px;
+//                color: #868484;
+//                margin: 0;
+//             }
+//          }
+//          .login__submitBtn {
+//             background: linear-gradient(88deg, #3f25aa, #ab3587);
+//             color: #fff;
+//          }
+//       }
+//    }
+// }

@@ -1,0 +1,38 @@
+.detailsPage_slide img {
+  width: 100%;
+  height: 400px;
+}
+
+.detailsPage_slide_thumb img {
+  width: 100%;
+  height: 80px;
+  cursor: pointer;
+}
+
+.deSlideBtn {
+  position: absolute;
+  background: #e6e6e6;
+  z-index: 1;
+  border-radius: 50%;
+  font-weight: 700;
+  border: none;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #282828;
+  i {
+    display: block;
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+.deSlidNxt_btn {
+  right: 10px;
+}
+.deSlidPrev_btn {
+  left: 10px;
+}
+
+.swiper-slide-thumb-active {
+  border: 4px solid #2074d7;
+}

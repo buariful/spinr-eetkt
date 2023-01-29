@@ -1,0 +1,64 @@
+// ============== register css ================
+.optionBtn {
+  display: flex;
+  margin: 0 auto 2em auto;
+  gap: 2em;
+  button {
+    color: #868484;
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    border: 2px solid #c4c4c4 !important;
+  }
+  button.optionBtn__active {
+    background: #4085d6;
+    border: 2px solid #4085d6;
+    color: white;
+  }
+}
+
+.otpNum {
+  display: flex;
+  gap: 10px;
+  input {
+    border: 1px solid #868484;
+    border-radius: 5px;
+  }
+}
+
+.phoneWrapper {
+  display: flex;
+  align-items: center;
+  border: 2px solid #86848484;
+  margin-bottom: 2em;
+  justify-content: space-evenly;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.phoneWrapper button {
+  background: #4085d6 !important;
+  color: white;
+  border: none !important;
+  padding: 0.1em !important;
+  font-family: "Nunito Sans";
+  font-weight: 700;
+  margin: 0 !important;
+  width: auto;
+  flex-basis: 20%;
+}
+
+.phoneWrapper p {
+  color: #a1a1a1;
+  font-family: "Nunito Sans";
+  font-weight: 700;
+  flex-basis: 25%;
+}
+
+.phoneWrapper input {
+  border: none !important;
+  flex-basis: 40%;
+  margin: 0 !important;
+  border-left: 1px solid #868484 !important;
+  border-radius: 0 !important;
+  flex-basis: 55%;
+}
